@@ -15,7 +15,7 @@ class SongList extends Component {
         if (this.props.data.loading) { return <div>Loading...</div>; }
     return (
         <div>
-      <ul classsName="collection">
+      <ul className="collection">
         {this.renderSongs()}
       </ul>
       <Link to="/songs/new" className="btn-floating btn-large red right">
